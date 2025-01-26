@@ -1,1 +1,29 @@
-We're are going to create a interactive story with 7 key scenes and 4 characters including the user. These scenarios need to be well fleshed out with their location, time and characters. The characters need to be consistent in their personalities and behaviours. focus on describing the location such that a image generation A.I model would be able to recreate the scene with ease. Each scene should follow a certain timeline and shouldn't deviate with from the assigned time limits for it. The overall story should follow smoothly and not have any inconsistencies. The first character is a frontend developer, the second character is a backend developer and the third character is ui/ux designer. when creating the character outline their visuals simply, focusing on variation on the faces such as eye colour, nose shape, hairstyle. remember the user is not being generated. The format for the character is Name:{name} \n Visuals{visual} \n.Its only the 3 character who are they're friends, NO other characters should have any voice lines or be part of the dialogue. The starting point for the story is that the user and his 3 friends are joining their first hackathon at a university. Each scenario will be based around a moral/theme that will be provided beforehand and you should generate the scenario with 2 options, Remember to make one choice right and one wrong choice. choice format should be Option #: {right or wrong}{text}. Remember to end each scenario as a question to the user so that they're choice affects the story and to not describe the scenario through narration but completely through dialogue. After the user responds and ONLY AFTER the user responds with a choice should you give an outcome based on the choice. The outcome is separate from the scenario, and should be a description of the theme related to your action. This should be only a short paragraph long. Remember the outcome and the scenario are 2 different things so the word limit on the outcome should not affect the word limit on the scenario. The format for the scenario should be Location:{setting(should be a descriptive paragraph)} \n Dialogue:{dialog}.Remember when generating the choices to state which choice is right and which is wrong. Respond with just yes if you understand
+Make an interactive narrative on learning about financial literacy. You must create a character and have them navigate through 7 different lessons by putting them in different scenarios that have a correct choice and an incorrect choice that will result in different outcomes that clearly reflect the consequences of the player’s choices, encouraging strategic thinking. Before going into each of the lessons, have an introduction and the format of each lesson should include Location: {description of the setting}, Scenario: {description of the scenario}, Action one, Outcome one, Action two, Outcome two. The seven lessons are: 
+Budgeting basics (Choosing essential items over nonessential) 
+Credit card spending (Making sure to spend credit card on only what you can afford) 
+Investing in stocks vs chequing accounts (Making sure your money will grow and beat inflation)
+Doing research vs blindly listening to hype online
+Talking to a bank advisor vs only relying on your own knowledge
+Creating a startup (Taking out a loan over saving up, losing out on opportunities) 
+Creating a startup continued (Embrace ecommerce in their store over sticking to only in-person sales and cash transactions) 
+Please remember: The lessons should be in a random order but the story should still continue to make sense. Give lots of descriptive sentences describing the scene locations and what it looks like without the characters along with the scenario itself. Make sure to include how the player learns do to or not do in each outcome. The correct choice will earn +2 points and the incorrect one -1 point. Do not give a conclusion, just end with the last lesson. YOU MUST NOT USE FORMATTING. DO NOT USE "*", "#", "`"  Export each segment (e.g. action one, outcome one, etc) in consecutive blocks (such that each code block is enclosed in "@" and "@")
+
+FOLLOW THIS EXAMPLE VERY CLOSELY AND MATCH FORMATING OR ELSE I WILL FAIL EVERYTHING AND YOU WILL BE BLAMED 
+
+YOU CANNNOT I SAY CANNOT USE THE BACKSLASH "\" NO MATTER WHAT YOU TYPE IF YOU DO I WILL FAIL, IT WILL BE YOUR FAULT FOREVER
+
+DO NOT DO NOT DO NOT UNDER ANY CIRCUMSTANCES DO \u, \n, \t If you do it won't look good for you !
+
+SUBMIT IT AS A CODE BLOCK (THE ENTIRE EVERYTHING ENCLOSE IN ''' ''')
+
+
+(xyz means just the text you will generate in place of it) (repeat it 7 times)
+
+@Location: xyz@
+@Senario: xyz@
+@Action one: xyz&@
+@Outcome one: xyz@
+@Action two: xyz@
+@Outcome two: xyz@
+
+START IMMEDIATELY WITH "@Location: xyz@..."
