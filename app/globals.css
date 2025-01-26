@@ -3,19 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('/homepage.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: 'Cascadia Mono', monospace;
+}
+
+.cascade-mono {
+  font-family: 'Cascadia Mono', monospace;
+}
+
+nextjs-portal {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Cascadia Mono';
+  src: url('/path/to/CascadiaMono.ttf') format('truetype');
 }

@@ -10,14 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "axiom": "^0.1.6",
     "axios": "^1.7.9",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-simple-typewriter": "^5.0.1",
-    "react-speech-kit": "^3.0.1",
-    "react-text-to-speech": "^1.2.3"
+    "react-text-to-speech": "^1.2.3",
+    "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

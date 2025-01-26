@@ -1,22 +1,24 @@
 "use client"
 
-import GetImage from "./components/getImage"
-import StartTestButton from "./components/startTest"
-import TestStart from "./components/testStart"
-import Textbox from "./components/textbox"
 
-export default function Home () {
+import LandingPage from './components/landingPage'
+import Image from 'next/image'
 
-  
-
+export default function Home() {
   return (
-    <div className = "flex flex-col items-center justify-center h-screen">
-
-      <Textbox/>   
-      <TestStart/> 
-      <StartTestButton/>
+    <div className="relative min-h-screen">
+      <div className="fixed inset-0 -z-10">
+        <Image
+          src="/homepage.png"
+          alt="Background Image"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+      <div>
+        <LandingPage />
+      </div>
     </div>
   )
 }
-
-//<GetImage/>

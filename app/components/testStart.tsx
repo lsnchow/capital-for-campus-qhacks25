@@ -9,6 +9,8 @@ export default function TestStart() {
         } catch (error) {
             console.error('Error fetching data:', error);
         }
+        
+
     };
 
     return (
