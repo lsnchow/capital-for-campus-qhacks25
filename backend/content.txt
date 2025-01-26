@@ -1,0 +1,35 @@
+ Mia wanders through the market, a small budget she’s created for herself clutched in her hand. She knows she needs to purchase groceries for the week but is easily tempted by the array of non-essential snacks and trinkets surrounding her. 
+ Mia decides to prioritize her grocery list: fresh vegetables, dairy, and some fruit. 
+ By choosing essential items over non-essential, Mia successfully sticks to her budget, ensuring she has healthy meals throughout the week. (+2 points)
+ Mia succumbs to the allure of the trendy snacks and decorative items, forgetting her budget altogether. 
+ Mia ends up spending more than she intended, leaving her with little for actual groceries. She has to skip meals for the week. (-1 point)
+ Mia, after a rewarding shift, decides to reward herself with a latte but remembers that she has a new credit card. Curious and a bit anxious, she wonders if she should use it instead of cash. 
+ Mia decides to buy only the latte and pay it off right away with her actual income. 
+ By being responsible with her credit card, Mia builds her credit history positively while treating herself without risk. (+2 points)
+ Mia feels adventurous and decides to splurge on a fancy pastry, thinking she can pay it off later. 
+ The pastry puts her over budget, and the interest accumulates on her credit card. She now has to pay more than she originally planned. (-1 point)
+ Mia notices a poster about investing workshops. Intrigued, she reflects on whether stocks or keeping her money in a chequing account is a better option for her future. 
+ Mia researches the potential growth of stocks and the threat of inflation. 
+ By understanding the benefits of investing in stocks, Mia realizes how to make her money grow and protect it against inflation. (+2 points)
+ Mia decides to stick her savings in a chequing account, thinking it’s the safer choice without doing any research. 
+ By neglecting to invest, her money loses value over time, eroded by inflation. (-1 point)
+ Mia overhears her friends raving about a hot new cryptocurrency, overheated conversations fuelling her curiosity. She needs to decide whether to invest based on the hype or conduct her own research. 
+ Mia takes the time to research the cryptocurrency. 
+ By diligently researching, she learns about the risks and real viability of the currency, avoiding a potential financial loss. (+2 points) 
+ Mia naively invests based solely on her friends’ excitement without evaluating the situation. 
+ Unfortunately, the cryptocurrency quickly crashes, and Mia loses the money she invested. (-1 point)
+ Mia feels confident after learning about investing but hesitates when offered advice from the bank advisor. She must choose between seeking the advisor’s opinion or solely relying on her self-taught knowledge about finance. 
+ Mia talks to the bank advisor, eager to gain insights and clarify her knowledge. 
+ By consulting the advisor, Mia gains valuable information, uncovering future investment options she hadn't considered. (+2 points) 
+ Confident in her self-researched understanding, Mia declines the advisor’s input. 
+ Mia misses out on practical advice and leads herself to invest unwisely, ending up with loss instead of growth. (-1 point)
+ Mia dreams of starting her own business, but she faces the dilemma of whether to take out a loan or save up for it first. 
+ Mia takes the innovative route and applies for a small loan to start her business immediately. 
+ With the loan, Mia sets her startup journey in motion and successfully launches her business, gaining valuable experience. (+2 points) 
+ Mia decides to save up slowly, missing out on an opportunity to enter the market while it's still fresh. 
+ With her slow savings, the market evolves, and her idea becomes outdated before she even gets her venture off the ground. (-1 point)
+ As sales start trickling in, Mia realizes she must decide whether to embrace e-commerce for her store or stick to traditional in-person sales and cash transactions only. 
+ Mia chooses to set up an online store alongside her brick-and-mortar shop. 
+ By embracing e-commerce, Mia widens her customer reach and increases her sales, maximizing her potential. (+2 points) 
+ Mia opts to remain exclusively in-person, believing it to be the safest way to maintain her customers. 
+ Without the online presence, Mia's sales stagnate, losing potential revenue from a broader audience. (-1 point)'''

@@ -109,7 +109,7 @@ def generate_image(prompt):
     response = client.images.generate(
         model="dall-e-3",
         prompt=prompt,
-        size="1024x1024",
+        size="1792x1024",
         quality="standard",
         n=1,
     )
@@ -122,7 +122,8 @@ def generate_image(prompt):
 
 def getBackgroundImages(list):
     background_images = []
-    for i in range(6):
+    #range 7 for 7 scenes
+    for i in range(7):
         background_images.append(generate_image("based on this description create a simple pixelated artstyle image of the background of this setting, not including the character themselves:" + list[i]))
     return background_images
 
@@ -159,34 +160,86 @@ def start():
         print(split)
 
         chunked = chunk_list(split, 6)
-        second_index_list = [chunk[0] for chunk in chunked if len(chunk) > 1]
-        print(second_index_list)
-        linkOfBackgroundImages = getBackgroundImages(second_index_list)
+        first_element_of_each_embeded_list = [chunk[0] for chunk in chunked]
+        print(first_element_of_each_embeded_list)
+        linkOfBackgroundImages = getBackgroundImages(first_element_of_each_embeded_list)
         
+        #horrible naming but somehow it works
+
+        #dont need to check if each chunk in chunked is the right amount of elemnts, always will be 6
+        second_elements = [chunk[1] for chunk in chunked]
+        third_elements = [chunk[2] for chunk in chunked]
+        fourth_elements = [chunk[3] for chunk in chunked]
+        fifth_elements = [chunk[4] for chunk in chunked]
+        sixth_elements = [chunk[5] for chunk in chunked]
+
+        print("made it this far")
+
+        output_list = []
+        for i in range(7):
+            print(i)
+            output_list.append(second_elements[i])
+            output_list.append(third_elements[i])
+            output_list.append(fourth_elements[i])
+            output_list.append(fifth_elements[i])
+            output_list.append(sixth_elements[i])
+
+        print("made it this fa2r")
+        with open('content.txt', 'w') as file:
+            file.write('\n'.join(output_list))
+
+        print("made it this far3")
         for i in linkOfBackgroundImages:
             print(i)
         with open('background.txt', 'w') as file:
             file.write('\n'.join(linkOfBackgroundImages))
+        print("made it this far4")
         
-        
-        finalOutput = chunked.append(linkOfBackgroundImages)
+        final_output = chunked + [linkOfBackgroundImages]
 
 
         
 
-        json_output = json.dumps(finalOutput)
+        json_output = json.dumps(final_output)
         print(json_output)
-        return jsonify(json_output),200
+
+        return jsonify(True),200
     except Exception as e:
         print(e)
         return jsonify({"error": str(e)}), 500
 
 
+def readBackground():
+    background_images = []
+    with open('background.txt', 'r') as file:
+        for line in file:
+            background_images.append(line.strip())
+    
+    return background_images
+
+def read_content():
+    background_images = []
+    with open('gettingValues.txt', 'r') as file:
+        for line in file:
+            background_images.append(line.strip())
+    
+    return background_images
+
+
+
+
+
 @app.route('/background', methods=['GET'])
-def start():
+def get_background():
     try:
-        with open('background.txt', 'r') as file:
-            return jsonify(file.read()), 200
+        return jsonify(readBackground()), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/content', methods=['GET'])
+def get_blurb():
+    try:
+        return jsonify(read_content()), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
