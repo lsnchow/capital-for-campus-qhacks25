@@ -16,6 +16,8 @@ DO NOT DO NOT DO NOT UNDER ANY CIRCUMSTANCES DO \u, \n, \t If you do it won't lo
 
 SUBMIT IT AS A CODE BLOCK (THE ENTIRE EVERYTHING ENCLOSE IN ''' ''')
 
+YOU MUST HAVE 7 SCENES OR ELSE YOU WILL REGRET IT!
+
 
 (xyz means just the text you will generate in place of it) (repeat it 7 times)
 

@@ -1,0 +1,48 @@
+@Location: A cozy coffee shop with wooden tables, large windows letting in soft sunlight, and the faint aroma of freshly brewed coffee. A corkboard on the wall displays community announcements and flyers.@
+@Scenario: Alex has just received his first credit card. He’s tempted to buy an expensive gaming console that costs more than he can pay off in full at the end of the month. Alternatively, he could use the card for smaller, affordable purchases to build his credit responsibly.@
+@Action one: Alex uses the credit card to make smaller purchases, such as his weekly groceries, which he can pay off in full.@
+@Outcome one: Alex builds his credit score without incurring debt. He learns the value of spending only what he can afford on his credit card. +2 points.@
+@Action two: Alex decides to splurge on the gaming console and doesn’t have enough to pay off the full amount when his bill arrives.@
+@Outcome two: Alex incurs interest charges and his credit card balance grows. He learns the hard way that overspending on credit leads to financial strain. -1 point.@
+
+@Location: A modern bank branch with sleek furniture, large glass windows, and friendly staff at the front desks. A digital screen cycles through financial tips and loan offers.@
+@Scenario: Alex wants to start a small tech startup. He’s unsure whether to speak with a bank advisor for guidance on funding or rely on his own limited knowledge to secure financing.@
+@Action one: Alex schedules a meeting with a bank advisor and learns about different funding options, including loans with reasonable terms to help him get started.@
+@Outcome one: Alex feels more confident about starting his business with the right financial resources and support. He realizes the importance of seeking expert advice. +2 points.@
+@Action two: Alex skips talking to the bank advisor and uses his personal savings to fund the business. He struggles to cover costs and misses growth opportunities.@
+@Outcome two: Alex learns that relying solely on his own knowledge can limit his ability to make informed decisions about funding. -1 point.@
+
+@Location: A bustling city park, where vendors sell snacks and children play near a fountain. The sound of birds chirping mixes with the distant hum of traffic.@
+@Scenario: Alex overhears a group of friends hyping up a "can't-miss" investment in a new cryptocurrency. He needs to decide whether to research the opportunity himself or blindly follow their advice.@
+@Action one: Alex spends time researching the cryptocurrency, discovering its risks and lack of stability, and decides not to invest.@
+@Outcome one: Alex avoids losing his savings in a speculative investment and learns the value of doing thorough research. +2 points.@
+@Action two: Alex blindly invests in the cryptocurrency based on the hype, only to watch its value plummet within weeks.@
+@Outcome two: Alex loses a significant amount of money and realizes the importance of critical thinking before making financial decisions. -1 point.@
+
+@Location: A quiet bedroom with a desk covered in notebooks, a laptop, and a small potted plant by the window. The curtains are drawn, and sunlight casts a warm glow on the room.@
+@Scenario: Alex is trying to decide what to do with his savings. He can invest in stocks to grow his money over time or keep the funds in a chequing account where it earns little to no interest.@
+@Action one: Alex invests a portion of his savings in a diversified portfolio of stocks, understanding the risks but focusing on long-term growth.@
+@Outcome one: Over time, Alex's investments grow and outpace inflation. He learns the importance of making his money work for him. +2 points.@
+@Action two: Alex keeps all his savings in a chequing account, feeling hesitant to invest. Inflation slowly erodes the purchasing power of his money.@
+@Outcome two: Alex learns that while keeping money in a chequing account feels safe, it doesn’t help his financial goals in the long run. -1 point.@
+
+@Location: A brightly lit supermarket with neatly stocked shelves of food, toiletries, and household goods. Soft music plays overhead, and the scent of freshly baked bread wafts through the air.@
+@Scenario: Alex has a limited budget for groceries. He can focus on buying essential items, such as vegetables and staples, or indulge in nonessential snacks and treats that catch his eye.@
+@Action one: Alex chooses to buy essential items and avoids unnecessary spending.@
+@Outcome one: Alex is able to stick to his budget and has enough food to last the week. He learns the importance of prioritizing essentials. +2 points.@
+@Action two: Alex buys snacks and treats, leaving him with little money for the essentials.@
+@Outcome two: Alex runs out of money before he can buy enough groceries for the week. He learns the consequences of not budgeting wisely. -1 point.@
+
+@Location: A small business storefront with large glass windows and a sign advertising a grand opening. Inside, the shelves are stocked with artisanal goods, but the checkout only accepts cash.@
+@Scenario: Alex has just opened his startup and is debating whether to embrace ecommerce and digital payment options or stick with in-person sales and cash transactions only.@
+@Action one: Alex creates an online store and offers digital payment options, attracting a wider customer base.@
+@Outcome one: Alex sees a significant increase in sales and learns the value of adapting to modern consumer habits. +2 points.@
+@Action two: Alex sticks to in-person sales and cash transactions, missing out on potential online customers.@
+@Outcome two: Alex struggles to grow his business and realizes the importance of meeting customer expectations. -1 point.@
+
+@Location: A trendy coworking space with sleek furniture, colorful murals on the walls, and the hum of entrepreneurs typing away on laptops.@
+@Scenario: Alex has a great idea for a startup but doesn’t have enough savings to fund it. He can take out a small business loan to seize the opportunity or wait to save up more money.@
+@Action one: Alex takes out a small business loan with reasonable terms, allowing him to act on his idea and grow his startup quickly.@
+@Outcome one: Alex successfully launches his business and learns the value of using loans strategically to take advantage of opportunities. +2 points.@
+@Action two: Alex decides to wait and save up money, but by the time he has enough, a competitor has already dominated the market.@
+@Outcome two: Alex misses the chance to bring his idea to life and learns that waiting too long can lead to lost opportunities. -1 point.@

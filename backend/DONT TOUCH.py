@@ -152,11 +152,14 @@ def getBackgroundImages(list):
 def start():
     try:
         print("gotten here")
-        big_prompt = get_first_prompt_input()
+        #big_prompt = get_first_prompt_input()
         #print(big_prompt)
         #print(type(big_prompt))
-        response = generate_response(big_prompt)
+        #response = generate_response(big_prompt)
         #print(response)
+
+        with open('testInput.txt', 'r') as file:
+            response = file.read()
 
         clean = response.strip()
         split = split_string(clean)
@@ -185,7 +188,7 @@ def start():
         chunked = chunk_list(split, 6)
         first_element_of_each_embeded_list = [chunk[0] for chunk in chunked]
         #print(first_element_of_each_embeded_list)
-        linkOfBackgroundImages = getBackgroundImages(first_element_of_each_embeded_list)
+        #linkOfBackgroundImages = getBackgroundImages(first_element_of_each_embeded_list)
         
         linkOfBackgroundImages = readBackground()
 
